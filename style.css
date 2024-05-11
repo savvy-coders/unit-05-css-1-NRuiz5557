@@ -7,4 +7,17 @@
 /* 4. Change the text color of the form's button element to "RGB(255, 255, 255)". */
 /* 5. Add a 4-pixel border radius to the form's button element. */
 /* 6. Use the :active pseudo-class to change the background color of the button to "RGB(0, 86, 179)" when active/clicked. */
-
+body{
+    background-color: rgb(233,233,233)}
+h1{
+    font-size: 40px;}
+.container{
+    border: 2px solid rgb(204,204,204)
+}
+.button{
+    border-radius: 4px 
+    color rgb(255,255,255)
+}
+.button :active{
+    background-color: rgb(0,86,179)
+}
